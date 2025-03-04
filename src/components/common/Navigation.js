@@ -20,7 +20,7 @@ function Navigation(props) {
           href="/dashboard"
           style={{
             background: router.asPath === "/dashboard" ? "#00B07426" : undefined,
-          }['background']}
+          }['btn']}
         >
           Dashboard
         </Link>
