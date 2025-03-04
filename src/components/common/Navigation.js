@@ -14,6 +14,7 @@ function Navigation(props) {
           backgroundColor: "aliceblue",
           display: "flex",
           flexDirection: "column",
+          marginTop: "30px,"
         }}
       >
         <Link
