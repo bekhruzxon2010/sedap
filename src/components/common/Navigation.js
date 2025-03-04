@@ -14,14 +14,13 @@ function Navigation(props) {
           backgroundColor: "aliceblue",
           display: "flex",
           flexDirection: "column",
-          marginTop: "30px,"
         }}
       >
         <Link
           href="/dashboard"
           style={{
             background: router.asPath === "/dashboard" ? "#00B07426" : undefined,
-          }}
+          }['background']}
         >
           Dashboard
         </Link>
