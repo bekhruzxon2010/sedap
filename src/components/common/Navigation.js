@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import styles from "@/styles/Navigation.module.css"
 import { useRouter } from "next/router";
 
 function Navigation(props) {
@@ -7,7 +8,7 @@ function Navigation(props) {
   console.log("router", router.asPath);
 
   return (
-    <div>
+    <div className={styles['mtop']}>
       <div
         style={{
           backgroundColor: "aliceblue",
