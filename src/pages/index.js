@@ -24,7 +24,6 @@ export default function Dashboard() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        
       </div>
     </>
   );
